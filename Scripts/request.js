@@ -15,7 +15,7 @@
 
     // Create XHR object
     var request = new XMLHttpRequest();
-    request.open('GET', '/COMP1073-Assignment03/paragraphs.json', true);
+    request.open('GET', '../paragraphs.json', true);
     request.addEventListener('readystatechange', function() {
 
         if (request.readyState === 4){
